@@ -2,11 +2,13 @@
 let bodyWeight=68;
 
 //身長を代入
-let bodyheight=1.7;
+let bodyHeight=1.7;
 
+//BMIを代入
+let bmi=(bodyWeight/(bodyHeight*bodyHeight))
 //コンソールへの出力
 console.log(bodyWeight);
-console.log(bodyheight);
+console.log(bodyHeight);
 
 //BMIを計算
-console.log(68/(1.7*1.7));
+console.log(bmi);
